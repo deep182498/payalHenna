@@ -1,0 +1,9 @@
+.link {
+   color: white;
+   padding: 2rem;
+}
+
+.link:hover {
+   border-bottom: 2px solid orangered;
+   color: orangered;
+}

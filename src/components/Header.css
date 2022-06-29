@@ -1,0 +1,12 @@
+.header {
+   height: 15vh;
+   background: linear-gradient(orange, rgb(247, 166, 166));
+   color: black;
+   display: flex;
+   align-items: center;
+}
+.header > h1
+{
+   color: white;
+   margin: 0 10px;
+}
