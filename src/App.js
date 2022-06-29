@@ -1,4 +1,3 @@
-import ReactWhatsapp from 'react-whatsapp';
 import './App.css';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
@@ -16,11 +15,9 @@ function App() {
          </div>
          <br />
          <Gallery />
-         <div className='container'>
-            <Services />
-         </div>
-         <Footer />
+         <Services />
          <SocialFollow />
+         <Footer />
       </div>
    );
 }

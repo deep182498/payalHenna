@@ -1,45 +1,41 @@
 import React from 'react';
+import Service from './service';
 
 function Services() {
    return (
-      <div>
-         <h1>Services</h1>
-         <div className='card-group'>
-            <div className='card'>
-               <img src='...' className='card-img-top' alt='...' />
-               <div className='card-body'>
-                  <h5 className='card-title'>Henna</h5>
-                  <p className='card-text'>
-                     This is a wider card with supporting text below as a
-                     natural lead-in to additional content. This content is a
-                     little bit longer.
-                  </p>
-               </div>
-            </div>
-            <div className='card'>
-               <img src='...' className='card-img-top' alt='...' />
-               <div className='card-body'>
-                  <h5 className='card-title'>Face Painiting</h5>
-                  <p className='card-text'>
-                     This card has supporting text below as a natural lead-in to
-                     additional content.
-                  </p>
-               </div>
-            </div>
-            <div className='card'>
-               <img src='...' className='card-img-top' alt='...' />
-               <div className='card-body'>
-                  <h5 className='card-title'>Party Orders </h5>
-                  <p className='card-text'>
-                     This is a wider card with supporting text below as a
+      <>
+         <div className='fluid-container' id='services'>
+            <h1>Services</h1>
+            <div className='card-group'>
+               <Service
+                  imgSrc={'...'}
+                  serviceName='Party Orders'
+                  desc='This is a wider card with supporting text below as a
                      natural lead-in to additional content. This card has even
                      longer content than the first to show that equal height
-                     action.
-                  </p>
-               </div>
+                     action.'
+               />
+
+               <Service
+                  imgSrc={'...'}
+                  serviceName='Face painting'
+                  desc='This is a wider card with supporting text below as a
+                     natural lead-in to additional content. This card has even
+                     longer content than the first to show that equal height
+                     action.'
+               />
+
+               <Service
+                  imgSrc={'...'}
+                  serviceName='Makeup'
+                  desc='This is a wider card with supporting text below as a
+                     natural lead-in to additional content. This card has even
+                     longer content than the first to show that equal height
+                     action.'
+               />
             </div>
          </div>
-      </div>
+      </>
    );
 }
 

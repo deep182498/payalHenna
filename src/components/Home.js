@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
    return (
-      <div style={{ 'max-height': '85vh' }}>
+      <div style={{ 'max-height': '85vh' }} id='home'>
          <div
             id='carouselExampleDark'
             className='carousel carousel-dark slide'
@@ -32,7 +32,7 @@ function Home() {
                      src='../../img/heena1.jpg'
                      className='d-block w-100'
                      alt='...'
-                     style={{'max-height':'85vh'}}
+                     style={{ 'max-height': '85vh' }}
                   />
                   <div className='carousel-caption d-none d-md-block'>
                      <h5>First slide label</h5>
@@ -47,7 +47,7 @@ function Home() {
                      src='../../img/heena2.jpg'
                      className='d-block w-100'
                      alt='...'
-                     style={{'max-height':'85vh'}}
+                     style={{ 'max-height': '85vh' }}
                   />
                   <div className='carousel-caption d-none d-md-block'>
                      <h5>Second slide label</h5>
@@ -62,7 +62,7 @@ function Home() {
                      src='../../img/heena3.jpg'
                      className='d-block w-100'
                      alt='...'
-                     style={{'max-height':'85vh'}}
+                     style={{ 'max-height': '85vh' }}
                   />
                   <div className='carousel-caption d-none d-md-block'>
                      <h5>Third slide label</h5>
