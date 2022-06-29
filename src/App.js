@@ -15,7 +15,7 @@ function App() {
          </div>
          <br />
          <Gallery />
-         <Services />
+         <Services className="mt-2"/>
          <SocialFollow />
          <Footer />
       </div>

@@ -2,3 +2,7 @@
    width: 200px;
    height: 200px;
 }
+.album-cont
+{
+   background: linear-gradient(30deg,orange,pink);
+}
