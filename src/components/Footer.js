@@ -14,33 +14,9 @@ function Footer() {
                      </svg>
                   </a>
                   <span className='mb-3 mb-md-0 text-muted'>
-                     © 2022 Company, Inc
+                     © 2022 PayalHenna. All rights reserved.
                   </span>
                </div>
-
-               <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
-                  <li className='ms-3'>
-                     <a className='text-muted' href='#'>
-                        <svg className='bi' width='24' height='24'>
-                           {/* <use xlink:href='#twitter'></use> */}
-                        </svg>
-                     </a>
-                  </li>
-                  <li className='ms-3'>
-                     <a className='text-muted' href='#'>
-                        <svg className='bi' width='24' height='24'>
-                           {/* <use xlink:href='#instagram'></use> */}
-                        </svg>
-                     </a>
-                  </li>
-                  <li className='ms-3'>
-                     <a className='text-muted' href='#'>
-                        <svg className='bi' width='24' height='24'>
-                           {/* <use xlink:href='#facebook'></use> */}
-                        </svg>
-                     </a>
-                  </li>
-               </ul>
             </footer>
          </div>
       </div>

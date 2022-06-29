@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
@@ -10,12 +11,12 @@ function App() {
    return (
       <div className='App'>
          <Header />
-         <div style={{ 'max-height': '85vh', overflow: 'hidden' }}>
+         <div style={{ 'max-height': '100vh', overflow: 'hidden' }}>
             <Home />
          </div>
-         <br />
          <Gallery />
-         <Services className="mt-2"/>
+         <Services className='mt-2' />
+         <About />
          <SocialFollow />
          <Footer />
       </div>

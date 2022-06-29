@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
    return (
-      <div style={{ 'max-height': '85vh' }} id='home'>
+      <div id='home'>
          <div
             id='carouselExampleDark'
             className='carousel carousel-dark slide'

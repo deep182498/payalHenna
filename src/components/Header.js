@@ -11,7 +11,11 @@ function Header() {
             <HeaderLinks to='#gallery' linkName='Gallery' />
             <HeaderLinks to='/#services' linkName='Services' />
             <HeaderLinks to='/' linkName='Pricing' />
-            <HeaderLinks to='/' linkName='About Us' />
+            <HeaderLinks to='/#about' linkName='About Us' />
+         </div>
+
+         <div className='display-header'>
+            <h1>Heena</h1>
          </div>
       </>
    );
